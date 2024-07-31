@@ -1,0 +1,37 @@
+.Signupform{
+    justify-content: center;
+    text-align: center;
+}
+.Signupform form{
+    max-width: 400px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+.Signupform label{
+    font-size: 20px;
+    
+    text-align: left;
+    margin:10px;
+}
+.Signupform input{
+    margin:10px;
+    padding:10px;
+    border-width: 0 0 2px;
+    border-color: #cf8ae2;
+}
+.Signupform button{
+    border-radius: 10px;
+    border-color: #ddd;
+    margin-top: 20px;
+}
+.Signupform p{
+    margin:40px;
+    font-size: 24px;
+    color:red;
+}
+input:focus{
+    outline: none ;
+    border-color: #86469C;
+    transition: 0.5s;
+}

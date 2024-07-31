@@ -1,0 +1,44 @@
+.loginform{
+    justify-content: center;
+    text-align: center;
+}
+.loginform form{
+    
+    max-width: 400px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+.loginform label{
+    font-size: 20px;
+    text-align: left;
+    margin:10px;
+}
+.loginform input{
+    margin:10px;
+    padding:10px;
+    border-width: 0 0 2px;
+    border-color: #cf8ae2;
+
+    
+
+}
+.loginform button{
+    border-radius: 10px;
+    border-color: #ddd;
+    margin-top: 20px;
+}
+.loginform p {
+    font-size: 20px;
+    margin: 40px;
+    color:red;
+}
+
+input:focus{
+    outline: none ;
+    border-color: #86469C;
+    transition: 0.5s;
+}
+#signup_nav{
+    color:black;
+}

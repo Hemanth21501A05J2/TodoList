@@ -1,0 +1,20 @@
+.navbar{
+    padding: 10px;
+    background-color: #86469C;
+    margin-bottom: 20px;
+}
+.link a{
+    color:#cf8ae2;  
+    padding:20px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:#86469C;
+}
+.navbar h1{
+    color: #cf8ae2;
+    background-color:#86469C;
+}
+.link a:hover{
+    font-size:28px;
+    transition: all 0.5s;
+}

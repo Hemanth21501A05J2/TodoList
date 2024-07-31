@@ -1,0 +1,25 @@
+###GET
+http://localhost:4000/
+
+###GET
+http://localhost:4000/user/test-user
+
+###POST 
+POST http://localhost:4000/user/login-user
+content-type: application/json
+
+{
+    "id": "2",
+    "name": "sample-register",
+    "password":"sample-register"
+}
+
+###POST
+POST http://localhost:4000/user/register-user
+content-type: application/json
+
+{
+    "id": "2",
+    "name": "bhuvi",
+    "password":"bhuvi"
+}
